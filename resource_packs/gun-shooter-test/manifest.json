@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "gun-shooter-test",
+    "description": "",
+    "uuid": "b485d96e-8bcb-4595-ad14-5be1caa1e2b5",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "gun-shooter-test",
+      "type": "resources",
+      "uuid": "23f9b0a1-915f-45ae-a9c3-faade17bf54e",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "6b3008a7-6f35-419c-853a-781b99279bec",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
