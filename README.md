@@ -1,4 +1,4 @@
-## Lag-Free Shooting System in MCBE
+## Instant Shooting in MCBE
 Most shooting Addons currently available for Minecraft Bedrock Edition (MCBE) typically determine hits by **detecting item usage**, then **spawning a projectile**, and finally **checking if that projectile hits an entity**.
 
 However, MCBE has a core limitation: the system cannot instantly spawn entities at the exact moment an item is used. When the system attempts to **spawn an entity**, it actually does so on the **next game tick (a 1-tick delay)**. This tiny 1-tick delay leads to a less fluid shooting experience.
@@ -8,7 +8,7 @@ To address this issue, I've designed a simple method. By utilizing the `world.be
 ---
 ---
 
-## MCBE 無延遲射擊系統
+## MCBE 無延遲射擊
 
 目前市面上大多數的 Minecraft Bedrock Edition (MCBE) 射擊類 Addon，其射擊判定機制多半是透過**檢測物品使用**後，**生成一個投擲物**，再**檢測該投擲物是否命中實體**來判斷。
 
